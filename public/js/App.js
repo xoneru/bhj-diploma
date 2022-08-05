@@ -1,7 +1,7 @@
 /**
  * Класс App управляет всем приложением
  * */
-class App {
+ class App {
   /**
    * С вызова этого метода начинается работа всего приложения
    * Он производит перваоначальную настройку всех
@@ -48,6 +48,7 @@ class App {
    * Инициализирует всплывающие окна
    * */
   static initModals() {
+    
     this.modals = {
       register: new Modal(document.querySelector("#modal-register")),
       login: new Modal(document.querySelector("#modal-login")),
